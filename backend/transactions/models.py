@@ -1,7 +1,7 @@
 from django.db import models
 from django.conf import settings
 
-class Transactions(models.Model):
+class Transaction(models.Model):
     class TransactionType(models.TextChoices):
         INCOME = "income", "Income"
         EXPENSE = "expense", "Expense"
